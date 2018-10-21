@@ -33,6 +33,10 @@ public class EmbeddedTomcat {
 
     private Tomcat tomcat;
 
+    /*
+     * For more information on how to bring up tomcat service, please
+     * refer to test cases stored in https://github.com/apache/tomcat
+     */
     @PostConstruct
     public void startUp() {
         try {
